@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* controls how the smooth the page scrolls */
+html {
+scroll-behavior: smooth;
+}
+/* end of scroll styling */
+
+
+/* where all the content of the page is stored */
+.container {
+    height: 100vh;
+}
+/* image styles ends */
+
+
+/* hover when you move on it */
+a:hover {
+    background-color: beige;
+}
+/* hovering over and icon styling ends here */
+
+
+/* content within my banner image */
+.inner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* end of content within banner image styling */
+
+
+/* styling of my button  */
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: #ee534f;
+    padding: 16px;
+    font-size: 0.9em;
+    border: none;
+    position: fixed;
+    border-radius: 50px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:  #ee534f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    font-size: 1.5em;
+    font-family: unset;
+    color: black;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.dropdown-content a:hover {background-color: ;}
+
+.dropdown:hover .dropdown-content {display: table-footer-group;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* end of styling for the button */
+
+
+/* styling of the h1, h2, h4, h6 and p tags starts here*/
+h1 {
+    border-bottom: solid 3px whitesmoke;
+    padding: 0 0.7em 0.25em 0.7em;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.1em;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+h3 {
+    font-size: 3.7em;
+}
+    
+h4 {
+   text-align: center;
+   text-transform: uppercase; 
+   font-size: 1.2em;
+   color: rgb(0, 0, 0);
+}
+
+h6 {
+    font-size: 1.85em;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.9em;
+    margin-inline-start: 5px;
+    word-spacing: 5px;
+    margin: 15px;
+    line-height: 1.5;
+    color: antiquewhite;
+}
+/* end of the tags styling */
+
+#about h2 p {
+    display: none;
+    font-size: 16px;
+}
+#about h2:hover p {
+    display: block;
+}
+#about h2:hover i{
+    color: red;
+}
+
+#education h2 li {
+    display: none;
+}
+
+#education h2:hover li{
+    display: block;
+}
+
+#education h2:hover i{
+    color: red;
+}
+#work {
+    font-size: 10px;
+    display: none;
+}
+
+.working:hover #work{
+    display: block;
+}
+
+.working:hover i{
+    color: red;
+}
+
+
+/* about, grid-container, skills and contact styling */
+#about {
+    padding: 65px;
+    background-image: url(https://images.pexels.com/photos/698327/pexels-photo-698327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 80px;
+    background-image: url(https://images.pexels.com/photos/698327/pexels-photo-698327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+#skills {
+    padding: 65px;
+    background-image: url(https://images.pexels.com/photos/698327/pexels-photo-698327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    word-spacing: 50px;
+}
+
+#education {
+    line-height: 45px;
+}
+
+#contact {
+    padding: 80px;
+    background-image: url(https://images.pexels.com/photos/246315/pexels-photo-246315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    /* background-color: woode; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    word-spacing: 150px;
+}
+
+li {
+    color: antiquewhite;
+    font-size: 0.6em;
+}
+
+ul li {
+    font-size: 1.3em;
+}
+
+ol li{
+    list-style: none;
+    font-size: 2em;
+}
+
+.text {
+    font-size: 0em;
+}
+
+
+/* end  of grid styling with content within */
+
+
+/* styling of icons */
+.icon1 {
+    font-size: 6em;
+    color: pink;
+    padding-top: 100px;
+}
+
+.icon2 {
+    font-size: 6em;
+    color: pink;
+    padding-top: 100px;
+}
+.icon3 {
+    font-size: 6em;
+    color: pink;
+    padding-top: 100px;
+}
+
+.icon4 {
+    font-size: 6em;
+    color: pink;
+    padding-top: 100px;
+}
+
+.icon5 {
+    font-size: 6em;
+    color: pink;
+    padding-top: 100px;
+}
+
+.arrow {
+    font-size: 1em;
+}
+
+
+/* end of styling to the icons */
+
+
+/* media for tablet */
+@media (max-width: 780px) {
+    .container {
+              display: grid;
+              grid-template-columns: 1fr auto;
+              grid-column-gap: 15px;
+              grid-row-gap: 10px;
+            }
+        }
