@@ -99,7 +99,7 @@ h1 {
 h2 {
     margin-top: 5%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.1em;
+    font-size: 2.3em;
     text-transform: uppercase;
     color: antiquewhite;
 }
@@ -128,6 +128,22 @@ p {
     line-height: 1.5;
     color: antiquewhite;
 }
+
+.year {
+    font-size: 0.8em;
+}
+
+.course {
+    font-size: 0.8em;
+}
+
+.life_choices {
+    font-size: 0.52em;
+}
+
+.para{
+    font-size: 0.5em;
+}
 /* end of the tags styling */
 
 #about h2 p {
@@ -145,7 +161,7 @@ p {
     display: none;
 }
 
-#education h2:hover li{
+#education h2:hover li {
     display: block;
 }
 
@@ -209,7 +225,6 @@ p {
 #contact {
     padding: 80px;
     background-image: url(https://images.pexels.com/photos/246315/pexels-photo-246315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    /* background-color: woode; */
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 4px;
