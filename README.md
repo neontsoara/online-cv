@@ -1,7 +1,7 @@
 # online-cv
 my online cv
 
-<<<<<<< HEAD
+==================================
 
 #live link 
 - https://neontsoara.github.io/online-cv/index.html
@@ -10,11 +10,9 @@ my online cv
 - added a live link to my website
 - included a background-image to my header section
 - styled my about section with a font and background-image
-- 
--
--
--
-=======
-#live link
-- https://neontsoara.github.io/online-cv/index.html
->>>>>>> dc616379f4b316faf4b2be49359b2d4f98ca43fb
+- added a hamburger nav named menu
+- within in my menu i have my home,about,skills etc
+- added 3 more buttons with about,work and education
+- within my 3 buttons i have my content
+- thereafter i created a grid with 2 grids within
+
