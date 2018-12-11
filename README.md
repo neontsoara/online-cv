@@ -1,6 +1,7 @@
 # online-cv
 my online cv
 
+<<<<<<< HEAD
 
 #live link 
 - https://neontsoara.github.io/online-cv/index.html
@@ -13,3 +14,7 @@ my online cv
 -
 -
 -
+=======
+#live link
+- https://neontsoara.github.io/online-cv/index.html
+>>>>>>> dc616379f4b316faf4b2be49359b2d4f98ca43fb

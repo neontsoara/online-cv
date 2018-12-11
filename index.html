@@ -54,64 +54,64 @@
 
      <!-- brief info about mysellf -->
      <div class="container">
-          <section id="about">
+          
+          <section id="about"  >
 
-               <h2>ABOUT <i class="fas fa-angle-down arrow"></i>
-                    <p>I am able to handle multiple tasks on a daily basis. I use a creative approach as well as a
+               <button onclick="myFunction()">ABOUT<i class="fas fa-angle-down arrow"></i></button>
+                    
+                         <p id="display" style="display:none">I am able to handle multiple tasks on a daily basis. I use a creative approach as well as a
                          dependable person who is great at time management. I'm a honest and trustworthy individual.
                          I'm a self-motivated and energetic person who is always eagar to learn new skills. Well
                          organised with a bright sense of humour that will rub off on all my colleges. I instil
                          confidence in others and approach new challenges with an open mind.</p>
-               </h2>
           </section>
 
 
-          <!-- education and work experiences -->
+      <!-- education and work experiences -->
           <section id="grid_container">
                 <div id="education">
-                     <h2>EDUCATION <i class="fas fa-angle-down arrow"></i>
+                <button onclick="myFunction1()">EDUCATION<i class="fas fa-angle-down arrow"></i></button>
 
-                                    <p class="year"><b>Year</b>: 2014</p>
-                                    <p class="course"><b>Matric</b>: Subjects</p>
-                                    <li>Mathematics SG</li>
-                                    <li>Life Science</li>
-                                    <li>Geography</li>
-                                    <li>Business Studies</li>
-
+                <div id="display1" style="display:none">
+                     <h2><p class="year"><b>YEAR</b>: 2014</p></h2>
+                     <h2><p class="course"><b>MATRIC</b>: Subjects</p></h2>
+                    
+                     <div class="sub">
+                          <li>Mathematics SG</li>
+                          <li>Life Science</li>
+                          <li>Geography</li>
+                          <li>Business Studies</li>
+                    </div>
 <br>
-                                 
-                               
-                                    <p class="year"><b>Year</b>: 2018 (September - March)</p>
-                                    <p class="course"><b>Course</b>: Web Development</p>
-                                    <p class="para">
-                                    Life Choices is a program which empowers youth with necessary life skills and also practical development skills. The skills/ languages one receives from the program is  HTML, CSS, SASS and JAVACRIPT. Being part of this program has skilled me to a level where i'm becoming a Junior Web Developer and also where i can change the tech world out there.</p>
-                             
-                         
-                         
-                       
-                       
-                    </h2>
+       
+                     <h2><p class="year"><b>YEAR</b>: 2018 (September - March)</p></h2>
+                     <h2><p class="course"><b>COURSES</b>: Web Development</p></h2>
+                     <p class="para">
+                     Life Choices is a program which empowers youth with necessary life skills and also practical development skills. The skills/ languages one receives from the program is HTML, CSS, SASS and JAVACRIPT. Being part of this program has skilled me to a level where i'm becoming a Junior Web Developer and also where i can change the tech world out there.</p>
+          
+                </div>
+                                    
                </div>
 
                <!-- second grid -->
-
-        
-                <h2 class="working">WORK <i class="fas fa-angle-down arrow"></i>
-                    <div id="work">          
-                        <h3><li>SOCCER</li></h3>
-                              <ol>
-                                 <li>Jomo Cosmos Academy(reserve team)</li>
-                                 <li>Chippa United Academy(reserve team)</li>
-                              </ol>
+               
+                <div id="work"> 
+                     <button onclick="myFunction2()">WORK<i class="fas fa-angle-down arrow"></i></button>
+                     <div id="display2" style="display:none">         
+                          <h3><li>SOCCER</li></h3>
+                               <ol>
+                                    <li>Jomo Cosmos Academy(reserve team)</li>
+                                    <li>Chippa United Academy(reserve team)</li>
+                               </ol>
  <br>
 
-                         <h3>
-                         <li>VANDERLANDE BAGGAGE HANDLER</li>
-                         <p class="text">Occupation: Baggage Handler</p>
-                         <p class="text">(June 2016 - October 2016)</p>
-                         </h3>
+                          <h3>
+                               <li>VANDERLANDE BAGGAGE HANDLER</li>
+                               <p class="text"><h4 class="time">Occupation: Baggage Handler</h4></p>
+                               <p class="text"><h4 class="time">(June 2016 - October 2016)</h4></p>
+                          </h3>
 
-                         <h6>My lists of responsibilities:</h6>
+                          <h6>My lists of responsibilities:</h6>
                               <ol>
                                   <li>Assisted with repairs and faults of the carousels.</li>
                                   <li>Assisting customers with baggage.</li>
@@ -119,14 +119,14 @@
                          
 <br>
 
-                         <h3><li>1 TIME DRIVING SCHOOL</li></h3>
-                         <p class="text">Occupation: Driving Instructor</p>
-                         <p class="text">(June 2016 - October 2016)</p>
-                         <h6>My lists of responsibilities:</h6>
-                         <ol>
-                              <li>Provided driving lessons.</li>
-                              <li>Administration duties.</li>
-                              <li>Bookings</li>
+                          <h3><li>1 TIME DRIVING SCHOOL</li></h3>
+                          <p class="text"><h4 class="time">Occupation: Driving Instructor</h4></p>
+                          <p class="text"><h4 class="time">(2016 - October 2016)</h4></p>
+                          <h6>My lists of responsibilities:</h6>
+                          <ol>
+                               <li>Provided driving lessons.</li>
+                               <li>Administration duties.</li>
+                               <li>Bookings</li>
                          </ol>
                     </div>
                 </h2>
@@ -162,7 +162,20 @@
 
 
      </div>
-
+<script>
+     function myFunction() {
+          var content = document.getElementById('display');
+          content.style.display = 'block';
+     }
+     function myFunction1() {
+          var content = document.getElementById('display1');
+          content.style.display = 'block';
+     }
+     function myFunction2() {
+          var content = document.getElementById('display2');
+          content.style.display = 'block';
+     }
+</script>
 
 
 </body>

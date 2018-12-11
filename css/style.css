@@ -105,23 +105,31 @@ h2 {
 }
 
 h3 {
-    font-size: 3.7em;
+    font-size: 2.3em;
 }
     
-h4 {
-   text-align: center;
+.time {
    text-transform: uppercase; 
    font-size: 1.2em;
-   color: rgb(0, 0, 0);
+   color: antiquewhite;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
 }
 
 h6 {
-    font-size: 1.85em;
+    font-size: 1.4em;
     text-decoration: underline;
+    color: antiquewhite;
 }
 
 p {
-    font-size: 1.9em;
+    font-size: 1.3em;
     margin-inline-start: 5px;
     word-spacing: 5px;
     margin: 15px;
@@ -142,44 +150,17 @@ p {
 }
 
 .para{
-    font-size: 0.5em;
+    font-size: 1.3em;
+}
+
+b {
+    font-size: 0.85em;
+}
+
+.sub {
+    font-size: 1.9em;
 }
 /* end of the tags styling */
-
-#about h2 p {
-    display: none;
-    font-size: 16px;
-}
-#about h2:hover p {
-    display: block;
-}
-#about h2:hover i{
-    color: red;
-}
-
-#education h2 li {
-    display: none;
-}
-
-#education h2:hover li {
-    display: block;
-}
-
-#education h2:hover i{
-    color: red;
-}
-#work {
-    font-size: 10px;
-    display: none;
-}
-
-.working:hover #work{
-    display: block;
-}
-
-.working:hover i{
-    color: red;
-}
 
 
 /* about, grid-container, skills and contact styling */
@@ -199,6 +180,8 @@ p {
     grid-column-gap: 10px;
     padding: 80px;
     background-image: url(https://images.pexels.com/photos/698327/pexels-photo-698327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 4px;
     text-align: center;
     width: 80%;
@@ -235,6 +218,7 @@ p {
     word-spacing: 150px;
 }
 
+/* ol, li, p stylings */
 li {
     color: antiquewhite;
     font-size: 0.6em;
@@ -246,15 +230,13 @@ ul li {
 
 ol li{
     list-style: none;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
-.text {
-    font-size: 0em;
+#text {
+    font-size: 0.5em;
 }
-
-
-/* end  of grid styling with content within */
+/* end of list stylings */
 
 
 /* styling of icons */
@@ -288,9 +270,17 @@ ol li{
 }
 
 .arrow {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-image: url(https://images.pexels.com/photos/246315/pexels-photo-246315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    color: antiquewhite;
+    
+}
 
 /* end of styling to the icons */
 
