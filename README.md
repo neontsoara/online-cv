@@ -16,3 +16,8 @@ my online cv
 - within my 3 buttons i have my content
 - thereafter i created a grid with 2 grids within
 
+#12 November 2018
+- styled my button for the menu
+- created a skills section 
+- added icons to my skills section
+- finished my media query on the mobile and tablet view
